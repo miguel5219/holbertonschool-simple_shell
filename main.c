@@ -21,5 +21,14 @@ int main(void)
 		num_char = getline(&line, &size, stdin);
 		if (num_char == EOF)
 			return (0);
+
+		l_token = malloc(sizeof(char *) * (token_counter(line, " \n\t") + 1));
+		l_token = tokenizer(line, " \n\t");
+		if (!l_token)
+		{
+			perror("./hsh");
+			free(line);
+			continue;
+		}
 	}
 }
