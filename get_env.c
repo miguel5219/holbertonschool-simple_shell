@@ -14,7 +14,7 @@ char *get_env(char *token)
 	char **_tpath = NULL;
 	char *path = NULL;
 	char *new_path = NULL;
-	char delimiter = "=:";
+	char *delimiter = "=:";
 
 	while (environ[i])
 	{
