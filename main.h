@@ -19,6 +19,8 @@ char *str_cat(char *dest, char *src);
 char *strn_cmp(char *string1, char *string2, size_t n);
 char *str_dup(char *string);
 int token_counter(char *p, char *delimiter);
+char **tokenizer(char *string, char *delimiter);
+
 
 #endif /* MAIN_H */
 
