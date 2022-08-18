@@ -11,11 +11,11 @@ char *get_env(char *token)
 	int i = 0;
 	int j = 1;
 	int path_len = 0;
-	char **_tpath = NULL; 
+	char **_tpath = NULL;
 	char *path = NULL;
 	char *new_path = NULL;
 	char delimiter = "=:";
-	
+
 	while (environ[i])
 	{
 		if (strn_cmp(environ[i], "PATH", 4) == 0)

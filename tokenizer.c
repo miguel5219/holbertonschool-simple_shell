@@ -3,7 +3,7 @@
 /**
  * tokenizer - Separate the string into segments
  * @string: string to tokenize
- * @delimiter: delimiters characters 
+ * @delimiter: delimiters characters
  * Return: tokens
  */
 

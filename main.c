@@ -1,6 +1,18 @@
 #include "main.h"
 
 /**
+ * sigintHandler - start point
+ * @sig: signal variable
+ * Return: void
+ */
+
+void sigintHandler(int sig)
+{
+	UNUSED(sig);
+	write(STDERR_FILENO, "\n$ ", 4);
+}
+
+/**
  * main - start point
  *
  * Return: EXIT_SUCCESS
@@ -10,6 +22,7 @@ int main(void)
 {
 	char *line = NULL;
 
+	signal(SIGINT, sigintHandler);
 	while (1)
 	{
 		char *path = NULL;
