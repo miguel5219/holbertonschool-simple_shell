@@ -15,6 +15,7 @@
 #include <stdbool.h>
 
 int str_len(char *string);
+char *str_cat(char *dest, char *src);
 
 
 
