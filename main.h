@@ -17,6 +17,7 @@
 int str_len(char *string);
 char *str_cat(char *dest, char *src);
 char *strn_cmp(char *string1, char *string2, size_t n);
+char *str_dup(char *string);
 
 
 #endif /* MAIN_H */
