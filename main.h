@@ -14,7 +14,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 
-
+int str_len(char *string);
 
 
 
