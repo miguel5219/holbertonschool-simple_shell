@@ -30,7 +30,8 @@ int main(void)
 		size_t size = 0;
 		ssize_t num_char = 0;
 
-		printf("$ ");
+		if (isatty(STDIN_FILENO) == 1)
+			printf("$ ");
 		num_char = getline(&line, &size, stdin);
 		if (num_char == EOF)
 			return (0);
@@ -38,7 +39,7 @@ int main(void)
 		l_token = malloc(sizeof(char *) * (token_counter(line, " \n\t") + 1));
 		l_token = tokenizer(line, " \n\t");
 		if (!l_token)
-		{	perror("./hsh");
+		{
 			free(line);
 			continue; }
 		if (access(l_token[0], F_OK) == -1)
