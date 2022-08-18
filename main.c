@@ -30,5 +30,18 @@ int main(void)
 			free(line);
 			continue;
 		}
+		if (access(l_token[0], F_OK) == -1)
+		{
+			path = get_env(l_token[0]);
+			if (!path)
+			{
+				perror("./hsh");
+				free(path);
+				free_ptr(l_token);
+				continue;
+			}
+		}
+		else
+			path = str_dup(l_token[0]);
 	}
 }
