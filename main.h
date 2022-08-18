@@ -21,6 +21,8 @@ char *str_dup(char *string);
 int token_counter(char *p, char *delimiter);
 char **tokenizer(char *string, char *delimiter);
 void _free_ptr(char **p);
+char *get_env(char *token);
+
 
 #endif /* MAIN_H */
 
