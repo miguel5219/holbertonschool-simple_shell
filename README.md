@@ -30,43 +30,43 @@
 
 <p>Your shell should work like this in interactive mode:</p>
 
-$ ./hsh
-($) /bin/ls
-hsh main.c shell.c
-($)
-($) exit
-$
+$ ./hsh<br>
+($) /bin/ls<br>
+hsh main.c shell.c<br>
+($)<br>
+($) exit<br>
+$<br>
 
 <p>But also in non-interactive mode:</p>
 
-$ echo "/bin/ls" | ./hsh
-hsh main.c shell.c test_ls_2
-$
-$ cat test_ls_2
-/bin/ls
-/bin/ls
-$
-$ cat test_ls_2 | ./hsh
-hsh main.c shell.c test_ls_2
-hsh main.c shell.c test_ls_2
-$
+$ echo "/bin/ls" | ./hsh<br>
+hsh main.c shell.c test_ls_2<br>
+$<br>
+$ cat test_ls_2<br>
+/bin/ls<br>
+/bin/ls<br>
+$<br>
+$ cat test_ls_2 | ./hsh<br>
+hsh main.c shell.c test_ls_2<br>
+hsh main.c shell.c test_ls_2<br>
+$<br>
 
 <h2>Files of Shell</h2>
 
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/AUTHORS">AUTHORS</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/README.md">README.md</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/_free_ptr.c">_free_ptr.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/fork_process.c">fork_process.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/get_env.c">get_env.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/main.c">main.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/main.h">main.h</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/man_1_simple_shell">man	1simple_shell</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_cat.c">str_cat.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_dup.c">str_dup.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_len.c">str_len.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/strn_cmp.c">strn_cmp.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/token_counter.c">token_counter.c</a>
-<a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/tokenizer.c">tokenizer.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/AUTHORS">AUTHORS</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/README.md">README.md</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/_free_ptr.c">_free_ptr.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/fork_process.c">fork_process.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/get_env.c">get_env.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/main.c">main.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/main.h">main.h</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/man_1_simple_shell">man	1simple_shell</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_cat.c">str_cat.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_dup.c">str_dup.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_len.c">str_len.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/strn_cmp.c">strn_cmp.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/token_counter.c">token_counter.c</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/tokenizer.c">tokenizer.c</a>
 
 <h2>Collaboration</h2>
 
