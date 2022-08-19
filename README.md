@@ -24,25 +24,22 @@
 
 <p>Your shell will be compiled this way:</p>
 
-<button "gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh"</button>
+- gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 <h3>Testing</h3>
 
 <p>Your shell should work like this in interactive mode:</p>
 
-<button
-"$ ./hsh
+$ ./hsh
 ($) /bin/ls
 hsh main.c shell.c
 ($)
 ($) exit
-$"
-</button>
+$
 
 <p>But also in non-interactive mode:</p>
 
-<button
-"$ echo "/bin/ls" | ./hsh
+$ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
 $
 $ cat test_ls_2
@@ -52,8 +49,7 @@ $
 $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
-$"
-</button>
+$
 
 <h2>Files of Shell</h2>
 
