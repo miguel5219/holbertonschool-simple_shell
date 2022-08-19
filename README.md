@@ -69,7 +69,7 @@ $<br>
 - <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/get_env.c">get_env.c</a>
 - <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/main.c">main.c</a>
 - <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/main.h">main.h</a>
-- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/man_1_simple_shell">man	1simple_shell</a>
+- <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/man_1_simple_shell">man_1_simple_shell</a>
 - <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_cat.c">str_cat.c</a>
 - <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_dup.c">str_dup.c</a>
 - <a href="https://github.com/miguel5219/holbertonschool-simple_shell/blob/master/str_len.c">str_len.c</a>
