@@ -24,8 +24,7 @@ int main(void)
 
 	signal(SIGINT, sigintHandler);
 	while (1)
-	{
-		char *path = NULL;
+	{	char *path = NULL;
 		char **l_token = NULL;
 		size_t size = 0;
 		ssize_t num_char = 0;
