@@ -4,6 +4,15 @@
 
 <p>A Unix shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts. The most generic sense of the term shell means any program that users employ to type commands. A shell hides the details of the underlying operating system and manages the technical details of the operating system's application programming interface, which is the level of the operating system that programs running on that operating system use.</p>
 
+<h2>Table of Contents</h2>
+ 
+ - <b>Requirements fot this project</b>
+ - <b>General info</b>
+ - <b>Compilation </b>
+ - <b>Testing</b>
+ - <b>Files of Shell</b>
+ - <b>Collaboration</b>
+
 <h2>Requirements for this project</h2>
 
 <h3>General</h3>
@@ -74,29 +83,3 @@ $<br>
 - <a href="https://github.com/miguel5219">Luis Miguel Moreno</a> - 5219@holbertonstudents.com
 
 <h3>For Holberton School</h3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
