@@ -31,13 +31,13 @@
 
 <h3>Compilation</h3>
 
-<p>Your shell will be compiled this way:</p>
+<b>Your shell will be compiled this way:</b>
 
 - gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 <h3>Testing</h3>
 
-<p>Your shell should work like this in interactive mode:</p>
+<b>Your shell should work like this in interactive mode:</b>
 
 $ ./hsh<br>
 ($) /bin/ls<br>
@@ -46,7 +46,7 @@ hsh main.c shell.c<br>
 ($) exit<br>
 $<br>
 
-<p>But also in non-interactive mode:</p>
+<b>But also in non-interactive mode:</b>
 
 $ echo "/bin/ls" | ./hsh<br>
 hsh main.c shell.c test_ls_2<br>
