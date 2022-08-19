@@ -39,7 +39,7 @@ int main(void)
 		l_token = tokenizer(line, " \n\t");
 		if (!l_token)
 		{
-			free(line);
+			free(l_token);
 			continue; }
 
 		if (access(l_token[0], F_OK) == -1)
