@@ -36,11 +36,12 @@ int main(void)
 			return (0);
 
 		l_token = malloc(sizeof(char *) * (token_counter(line, " \n\t") + 1));
-		l_token = tokenizer(line, " \n\t");
 		if (!l_token)
 		{
 			free(line);
 			continue; }
+		l_token = tokenizer(line, " \n\t");
+
 		if (access(l_token[0], F_OK) == -1)
 		{	path = get_env(l_token[0]);
 			if (!path)
